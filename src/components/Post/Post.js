@@ -14,7 +14,7 @@ export const Post = ({ title, url, author, comments, upvotes }) => {
                     <h3 className="post-title">{title ? title : "Post Title"}</h3>
                     <img
                         id="post-img" 
-                        src={url ? url : placeholder} 
+                        src={url ? url : ''} 
                         alt={title ? title : "Post Title"} 
                     />
                 </div>

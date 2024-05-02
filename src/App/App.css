@@ -19,3 +19,9 @@
   font-family: 'Reddit Sans', sans-serif;
   font-size: 16px;
 }
+
+#content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
