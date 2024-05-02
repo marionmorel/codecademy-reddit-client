@@ -1,0 +1,53 @@
+#header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    position: fixed;
+    top: 0px;
+    width: 99%;
+    margin: 0 auto;
+    height: 3em;
+    background-color: white;
+    z-index: 1;
+}
+
+#logo-img {
+    height: 2em;
+    margin: 10px;
+}
+
+#logo p {
+    color: black;
+}
+
+span {
+    font-family: 'Reddit Sans Bold';
+    color: #ff4500;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-content: center;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-content: center;
+}
+
+#search-img {
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+#search-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

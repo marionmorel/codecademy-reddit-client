@@ -1,0 +1,20 @@
+#footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 99%;
+    border-top: 1px solid rgb(77, 77, 77);
+    margin: 0 auto;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4500;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7193ff;
+}
